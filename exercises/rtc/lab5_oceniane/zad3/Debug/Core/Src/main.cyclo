@@ -1,0 +1,10 @@
+../Core/Src/main.c:66:10:hash	2
+../Core/Src/main.c:85:5:main	2
+../Core/Src/main.c:153:6:SystemClock_Config	3
+../Core/Src/main.c:196:13:MX_ADC1_Init	3
+../Core/Src/main.c:248:13:MX_RTC_Init	2
+../Core/Src/main.c:283:13:MX_TIM2_Init	4
+../Core/Src/main.c:326:13:MX_DMA_Init	1
+../Core/Src/main.c:344:13:MX_GPIO_Init	1
+../Core/Src/main.c:486:1:HAL_GPIO_EXTI_Callback	1
+../Core/Src/main.c:499:6:Error_Handler	1
