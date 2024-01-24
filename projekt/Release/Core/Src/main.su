@@ -1,0 +1,8 @@
+../Core/Src/main.c:87:6:I3G4250D_who_check	24	static
+../Core/Src/main.c:97:6:I3G4250D_init	16	static
+../Core/Src/main.c:119:6:I3G4250D_Read_Gyro	24	static
+../Core/Src/main.c:136:6:LSM303AGR_init	40	static
+../Core/Src/main.c:154:6:LSM303AGR_Read_Acc	32	static
+../Core/Src/main.c:238:6:SystemClock_Config	88	static,ignoring_inline_asm
+../Core/Src/main.c:177:5:main	88	static,ignoring_inline_asm
+../Core/Src/main.c:486:6:Error_Handler	0	static,ignoring_inline_asm

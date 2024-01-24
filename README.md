@@ -13,4 +13,4 @@
 
 ## Project specification
 
-Simple air gyroscope with artificial horizon.
+Simple air gyroscope and accelerometer with artificial horizon displayed on lcd 16x2.
