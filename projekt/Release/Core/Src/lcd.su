@@ -1,0 +1,10 @@
+../Core/Src/lcd.c:5:6:lcd_sendHalf	16	static
+../Core/Src/lcd.c:14:6:lcd_write_byte	8	static
+../Core/Src/lcd.c:20:6:lcd_write_cmd	8	static
+../Core/Src/lcd.c:25:6:lcd_char	8	static
+../Core/Src/lcd.c:31:6:lcd_gpio_init	48	static
+../Core/Src/lcd.c:77:6:LCD_Init	8	static
+../Core/Src/lcd.c:105:6:lcd_locate	0	static
+../Core/Src/lcd.c:119:6:lcd_str	8	static
+../Core/Src/lcd.c:124:6:lcd_str_XY	8	static
+../Core/Src/lcd.c:132:6:lcd_clear	0	static

@@ -60,8 +60,8 @@ all: main-build
 main-build: lab3.elf secondary-outputs
 
 # Tool invocations
-lab3.elf lab3.map: $(OBJS) $(USER_OBJS) D:\Studia\5sem\wsyw\wsyw23z-jacek_bielski-jakub_wysocki\projekt\STM32F411VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "lab3.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Studia\5sem\wsyw\wsyw23z-jacek_bielski-jakub_wysocki\projekt\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab3.map" -Wl,--gc-sections -static -specs=rdimon.specs --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+lab3.elf lab3.map: $(OBJS) $(USER_OBJS) C:\Users\kubaw\Desktop\studia\5sem\wsyw23z-jacek_bielski-jakub_wysocki\projekt\STM32F411VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "lab3.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\kubaw\Desktop\studia\5sem\wsyw23z-jacek_bielski-jakub_wysocki\projekt\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab3.map" -Wl,--gc-sections -static -specs=rdimon.specs --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
